@@ -5,3 +5,117 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+body {
+    background-color: #fdf3c5;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Color #49b6c2 Blue - #fde37e Orange - #a51318 Red */
+/*  font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif; */
+
+/** Utilites **/
+.container {
+    width: 97%;
+    margin: 0 auto;
+}
+@media (min-width: 480px) {
+    .container {
+        width: 95%;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 92%;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 90%;
+        max-width: 1100px;
+    }
+}
+.section {
+    padding: 3rem 0;
+}
+
+/* Main-Page */
+.main-page {
+    height: 100vh;
+    background-color: greenyellow;
+}
+
+/** Header-Nav **/
+.bar {
+    background-color: #a51318;
+}
+.main-nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 2rem 0;
+    height: 6rem;
+}
+.main-nav a {   
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2rem;
+    margin-right: 3rem;
+    text-decoration: none;
+    transition: all .3s linear;
+}
+.main-nav a:last-of-type {
+    margin-right: 0;
+}
+.main-nav a:hover {
+    color: black;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+}
+
+/** Main **/
+.main-content {
+    display: flex;
+    height: 75vh;
+}
+.line-blue {
+    background-color: #49b6c2;
+    height: 2px;
+    width: 100%;
+    margin-top: .8rem;
+}
+.addres {
+    padding-top: 30vh;
+}
+.addres p {
+    color: white;
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+.addres i {
+    transform: rotate(90deg);
+    padding: 1.2rem 0 0 1.2rem;
+    font-size: 2.3rem;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title img {
+    width: 85rem;
+}
+
+
+
+
+
+
+
+
+
+
+
