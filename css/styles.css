@@ -161,14 +161,62 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.location {
+    background: #fdf3c5;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+.location h3{
+    color: #a51318;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.titulo{
+    width: 100%;
+    padding-bottom: 1rem;
+    border: #a51318;
+    border-bottom: 2px solid #a51318;
+}
+.location p{
+    color: #a51318;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.location .texto{
+    grid-column: 2/12;
+    grid-row: 1/2;
+    display: flex;
+    align-items: flex-end;
+}
+.location .map{
+    grid-row: 2/10;
+    grid-column: 2/12;
+    border: 1rem solid #a51318;
+    border-radius: 1rem;
+    height:70%;
+}
+.location .texto-2{
+    grid-row: 8/12;
+    grid-column: 2/12;
+        }
+.location .map iframe {
+    width: 100%;
+    min-width: 10rem;
+    height: 100%;
 
+}
+.location .parrafos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
- 
-
-
- 
-
-
+footer{
+    background: #a51318;
+    width: 100%;
+}
 
 
 
