@@ -8,9 +8,10 @@ html {
 body {
     background-color: #fdf3c5;
     font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+
 }
 html{
-    overflow: hidden;
 }
 /* Color #49b6c2 Blue - #fde37e Orange - #a51318 Red */
 /*  font-family: 'Oswald', sans-serif;
@@ -46,6 +47,7 @@ html{
 .main-page {
     height: 100vh;
     background-color: black;
+    overflow: auto;
 }
 
 /** Header-Nav **/
@@ -214,8 +216,10 @@ html{
 }
 
 footer{
+    border-top:1rem solid #fde37e;
     background: #a51318;
     width: 100%;
+    height: 5rem;
 }
 
 
