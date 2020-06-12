@@ -9,13 +9,13 @@ $(Document).ready(function(){
             $(".promo").animate({
             right: "0rem"
             },500);
-            $(".texto-promo").css({
+/*             $(".texto-promo").css({
                 right: "-25rem"
-                },1);
+                },1); */
             $(".texto-promo").animate({
                 opacity: 1,
                right: "0rem"
-                },300);
+                },600);
             ocultar++;
         }else{
             $(".promo").animate({
@@ -24,7 +24,7 @@ $(Document).ready(function(){
                 $(".texto-promo").animate({
                     opacity: 0,
                    right: "-25rem"
-                    },1500);
+                    },1000);
                 ocultar--;
         }
         })
