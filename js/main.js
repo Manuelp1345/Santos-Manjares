@@ -9,11 +9,22 @@ $(Document).ready(function(){
             $(".promo").animate({
             right: "0rem"
             },500);
+            $(".texto-promo").css({
+                right: "-25rem"
+                },500);
+            $(".texto-promo").animate({
+                opacity: 1,
+               right: "0rem"
+                },500);
             ocultar++;
         }else{
             $(".promo").animate({
                 right: "-25rem"
                 },500);
+                $(".texto-promo").animate({
+                    opacity: 0,
+                   right: "-25rem"
+                    },500);
                 ocultar--;
         }
         })
