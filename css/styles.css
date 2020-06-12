@@ -45,6 +45,7 @@ html{
 /* Main-Page */
 .main-page {
     height: 100vh;
+    background-color: black;
 }
 
 /** Header-Nav **/
@@ -81,7 +82,9 @@ html{
     height: 75vh;
 }
 .video {
-    background-image: ;
+    background-image: url(../img/SM-1.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .line-blue {
     background-color: #49b6c2;
@@ -91,7 +94,6 @@ html{
 }
 .addres {
     position: relative;
-
     padding-top: 30vh;
 }
 .addres p {
@@ -159,6 +161,9 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+ 
 
 
  
