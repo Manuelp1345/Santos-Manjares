@@ -45,7 +45,6 @@ html{
 /* Main-Page */
 .main-page {
     height: 100vh;
-    background-color: black;
 }
 
 /** Header-Nav **/
@@ -80,6 +79,9 @@ html{
 .main-content {
     display: flex;
     height: 75vh;
+}
+.video {
+    background-image: ;
 }
 .line-blue {
     background-color: #49b6c2;
@@ -149,6 +151,14 @@ html{
     vertical-align: top;
 }
 
+/** Banner **/
+.banner {
+    background-image: url(../img/SM-4.jpg);
+    height: 15rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
  
