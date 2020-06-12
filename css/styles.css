@@ -52,7 +52,9 @@ body {
 .section {
     padding: 3rem 0;
 }
-
+.bg{
+    background: #fdf3c5;
+}
 /* Main-Page */
 .main-page {
     height: 100vh;
