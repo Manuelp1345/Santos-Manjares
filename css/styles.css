@@ -75,6 +75,7 @@ body {
     font-family: 'heinekenregular';
     color: white;
     font-size: 2rem;
+    font-weight: lighter;
     margin-right: 3rem;
     text-decoration: none;
     transition: all .3s linear;
