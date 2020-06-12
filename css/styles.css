@@ -7,8 +7,19 @@ html {
 }
 body {
     background-color: #fdf3c5;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'heinekenregular';
     overflow: hidden;
+
+}
+@font-face {
+    font-family: 'heinekenregular';
+    src: url('../fonts/heinekenHeineken.eot');
+    src: url('../fonts/heinekenHeineken.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/heinekenHeineken.woff2') format('woff2'),
+         url('../fonts/heinekenHeineken.woff') format('woff'),
+         url('../fonts/heinekenHeineken.svg#heinekenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
@@ -61,7 +72,7 @@ body {
     height: 6rem;
 }
 .main-nav a {   
-    font-family: 'Oswald', sans-serif;
+    font-family: 'heinekenregular';
     color: white;
     font-size: 2rem;
     margin-right: 3rem;
@@ -105,7 +116,7 @@ body {
     color: white;
     transform: rotate(-90deg);
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'heinekenregular';
     font-size: 2rem;
 }
 .addres i {
@@ -141,7 +152,7 @@ body {
 }
 .promo .thumb h2{
     font-size: 4rem;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'heinekenregular';
     font-weight: 700;
     position: absolute;
     color: #fdf3c5;
@@ -157,24 +168,25 @@ body {
 .texto-promo{
     text-align: center;
     color: #fdf3c5;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'heinekenregular';
     background: #a51318;
     border: 0px solid #000000;
     border-radius: 0px 0px 0px 2rem;
     width: 25rem;
-    height: 13rem;
+    height: 14rem;
     position: absolute;
     top: 100%;
     right: 0;
     opacity: 0;
 }
 .texto-promo p{
-    font-size: 2rem;
-    font-weight: 700;
-    margin-top: 0;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: .5rem;
     line-height: 2.5rem;
 }
 .texto-promo p span{
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 
