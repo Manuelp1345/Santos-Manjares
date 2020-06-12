@@ -136,6 +136,7 @@ body {
 }
 .promo .thumb {
     width: 25rem;
+    background: #a51318;
 
 }
 .promo .thumb h2{
@@ -159,11 +160,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     background: #a51318;
     border: 0px solid #000000;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 0px 2rem;
     width: 25rem;
     height: 13rem;
     position: absolute;
-    top: 56.5%;
+    top: 100%;
     right: 0;
     opacity: 0;
 }

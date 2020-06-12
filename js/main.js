@@ -11,11 +11,11 @@ $(Document).ready(function(){
             },500);
             $(".texto-promo").css({
                 right: "-25rem"
-                },500);
+                },1);
             $(".texto-promo").animate({
                 opacity: 1,
                right: "0rem"
-                },500);
+                },300);
             ocultar++;
         }else{
             $(".promo").animate({
@@ -24,7 +24,7 @@ $(Document).ready(function(){
                 $(".texto-promo").animate({
                     opacity: 0,
                    right: "-25rem"
-                    },500);
+                    },1500);
                 ocultar--;
         }
         })
