@@ -357,13 +357,24 @@ footer{
 }
 .view {
     text-align: center;
-    flex-basis: 50%;
+    flex-basis: 45%;
 }
-.border-bot {
+.under-line-red {
     width: 70%;
     max-width: 70%;
     border-bottom: 2px solid #a51318;
 }
+.flex-underline-red {
+    display: flex;
+    justify-content: center;
+}
+.flex-underline-red div {
+    flex-basis: 25%;
+    border-bottom: 2px solid #a51318;
+    margin: 4rem auto 0 auto;
+}
+
+/** Trabaja con Nosotros **/
 .main-jobs{
     font-family: 'Open Sans', sans-serif;
 }
@@ -398,9 +409,6 @@ footer{
     border-radius: 1rem;
     font-size: 1rem;
     padding: 1rem;
-
-
-
 }
 .form-jobs .btn-jobs{
     border: 3px solid #fde37e;
