@@ -241,14 +241,15 @@ footer{
     align-items: flex-end;
 }
 .location .map{
-    grid-row: 2/10;
+    grid-row: 2/8;
     grid-column: 2/12;
     border: 1rem solid #a51318;
     border-radius: 1rem;
     height:70%;
 }
 .location .texto-2{
-    grid-row: 8/12;
+    margin-top: 2rem;
+    grid-row: 6/8;
     grid-column: 2/12;
 }
 .location .map iframe {
