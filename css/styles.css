@@ -9,13 +9,6 @@ body {
     background-color: #fdf3c5;
     font-family: 'heinekenregular';
     overflow: hidden;
-
-}
-footer{
-    border-top:1rem solid #fde37e;
-    background: #a51318;
-    width: 100%;
-    height: 5rem;
 }
 @font-face {
     font-family: 'heinekenregular';
@@ -201,6 +194,32 @@ footer{
 .texto-promo p span{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
+}
+
+/** Footer **/
+.line-footer {
+    margin-top: 8rem;
+    background-color: #fde37e;
+    height: .2rem;
+    width: 100%;
+    text-align: center;
+}
+.line-footer::before { 
+    content: ' - BUENOS AIRES - ';
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #a51318;
+    background-color: #fde37e;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    top: -.8rem;
+}
+.underline-footer{
+    background-color: #a51318;
+    width: 100%;
+    height: 5rem;
 }
 
 /** Banner **/
