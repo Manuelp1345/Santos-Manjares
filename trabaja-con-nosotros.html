@@ -35,30 +35,45 @@
         </header>
 
         <main>
-                <div class="jobs bg">
-                    <div class="titulo-jobs">
-                        <h2>Trabaja en la mejor Parrilla</h2>
-                        <p>La mejor carne, acompañada de las mejores personas</p>
+                <div class="main-jobs bg">
+                    <div class="line-about-us"></div>
+                    <div class="m-top">
+                        <p>Crecenos Juntos</p>
                     </div>
-                    <div class="form">
-                        <form action="">
-                            <input type="text" placeholder="Nombre">
-                            <input type="text" placeholder="Apellido">
-                            <input type="text" placeholder="Nacionalidad">
-                            <input type="email" name="" id="" placeholder="Correo">
-                            <label for="">CV (Maximo 2MB)</label>
-                            <input type="file" name="" id="" placeholder="CV (Maximo 2MB)">
-                        </form>
+                    <div class="contenedor-jobs">
+                        <div class="titulo-jobs">
+                            <h2>Trabaja en la mejor Parrilla</h2>
+                            <p>La mejor carne, acompañada de las mejores personas</p>
+                        </div>
+                        <div class="form-jobs">
+                            <form action="">
+                                <input class="nombre-jobs" type="text" placeholder="Nombre">
+                                <input class="apellido-jobs" type="text" placeholder="Apellido">
+                                <input class="nac-jobs" type="text" placeholder="Nacionalidad">
+                                <input class="correo-jobs" type="email" name="" id="" placeholder="Correo">
+                                <div class="customFileInput inputWithButton inputWithButton_150">
+                                    <div class="inputWrap fileName">Curriculum Vitae (Max 2MB)</div>
+                                    <div class="btWrap">
+                                        <a class="bt" href="">Seleccionar Archivo</a>
+                                    </div>
+                                    <input class="text" type="file" placeholder="Placeholder" />
+                                  </div>
+                                <input  class="btn-jobs" type="submit" value="Enviar">
+                            </form>
+                        </div>
                     </div>
-
                 </div>
-
         </main>
         <footer></footer>
     </div><!-- .main-page -->
 
 
-
+<script>
+    function cambiar(){
+    var pdrs = document.getElementById('file-upload').files[0].name;
+    document.getElementById('info').innerHTML = pdrs;
+}
+</script>
 
 
     

@@ -359,10 +359,99 @@ footer{
     flex-basis: 50%;
 }
 .border-bot {
-    border-bottom: 2px solid #a51318;
     width: 70%;
+    max-width: 70%;
+    border-bottom: 2px solid #a51318;
 }
+.main-jobs{
+    font-family: 'Open Sans', sans-serif;
+}
+.contenedor-jobs{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+.titulo-jobs{
+    grid-column: 2/12;
+    grid-row: 1/3;
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: bold;
+    font-family: "Open Sans";
+}
+.form-jobs{
+    grid-column: 4/10;
+    grid-row: 3/9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+}
+.form-jobs .nombre-jobs,
+.form-jobs .nac-jobs,
+.form-jobs .correo-jobs,
+.form-jobs .apellido-jobs {
+    width: 45%;
+    margin: 1rem;
+    border: 2px solid #a51318;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
 
 
+
+}
+.form-jobs .btn-jobs{
+    border: 3px solid #fde37e;
+    background: #a51318;
+    border-radius: 1rem;
+    color: #fdf3c5;
+    margin: 1rem;
+    width: 94%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Open Sans";
+}
+.form-jobs .text{
+    display: none;
+}
+.customFileInput{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+.form-jobs .inputWrap{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 1rem;
+    border: 2px solid #a51318;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+.form-jobs .btWrap{
+    grid-column: 3/6;
+    grid-row: 2/3;
+    margin: 1rem;
+    padding: 0;
+    text-align: right;
+    width: 82%;
+    font-size: 1.2rem;
+}
+.form-jobs .bt{
+    text-decoration: none;
+    background: #a51318;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.7rem;
+    border: 3px solid #a51318;
+    background: #a51318 ;
+    border-radius: 0 1rem 1rem 0;
+    color: #fdf3c5;
+}
 
 
