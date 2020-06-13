@@ -216,7 +216,7 @@ footer{
     background: #fdf3c5;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
 }
 .location h3{
     color: #a51318;
@@ -233,6 +233,7 @@ footer{
     color: #a51318;
     font-size: 2rem;
     font-weight: 400;
+    margin-top: 1rem;
 }
 .location .texto{
     grid-column: 2/12;
@@ -370,7 +371,7 @@ footer{
 .contenedor-jobs{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
 }
 .titulo-jobs{
     grid-column: 2/12;
