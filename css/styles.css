@@ -10,6 +10,11 @@ body {
     font-family: 'heinekenregular';
     overflow: hidden;
 }
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
 @font-face {
     font-family: 'heinekenregular';
     src: url('../fonts/heinekenHeineken.eot');
@@ -62,6 +67,20 @@ body {
     background-color: #49b6c2;
     height: .2rem;
     width: 100%;
+}
+.line-left {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #a51318;
+    width: 20%;
+    height: .5rem;
+    margin-top: 5rem;
+}
+.m-top {
+    margin-top: -1.1rem;
+}
+.m-top p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Main-Page */
@@ -155,7 +174,6 @@ body {
 .promo .thumb {
     width: 25rem;
     background: #a51318;
-
 }
 .promo .thumb h2{
     font-size: 4rem;
@@ -288,16 +306,6 @@ body {
 .main-about-us {
     font-family: 'Open Sans', sans-serif;
 }
-.line-about-us {
-    position: relative;
-    background-color: #a51318;
-    width: 20%;
-    height: .5rem;
-    margin-top: 5rem;
-}
-.m-top {
-    margin-top: -1.1rem;
-}
 .m-top p {
     display: inline;
     background-color: #a51318;
@@ -391,6 +399,24 @@ body {
     flex-basis: 25%;
     border-bottom: 2px solid #a51318;
     margin: 4rem auto 0 auto;
+}
+
+ /** Experiencia **/
+.experience-talk {
+    width: 45%;
+    margin: 0 auto;
+}
+.experience-talk p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    margin: 0;
+}
+.experience-talk div {
+    text-align: center;
+}
+.experience-talk a i {
+    font-size: 7rem;
+    margin: 7rem 0;
 }
 
 /** Trabaja con Nosotros **/
