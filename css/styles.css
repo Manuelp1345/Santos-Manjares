@@ -494,8 +494,17 @@ h2 {
     height: 30rem;
     border: 1.5px solid #7e7e7e;
 }
-.image-galery i {
-    font-size: 7rem;
+.image-galery p {
+    font-size: 2.5rem;
+    position: relative;
+}
+.image-galery p::after {
+    font-family: 'fontAwesome';
+    content: '\f004';
+    font-size: 8rem;
+    position: absolute;
+    top: -3rem;
+    left: 12.3rem;
 }
 
 /** Trabaja con Nosotros **/
