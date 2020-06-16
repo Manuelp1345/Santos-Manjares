@@ -74,7 +74,7 @@ $(function(){
 
         
         
-        $(".image-galery p").on("click",efecto);
+        $(".image-galery .img-1").on("click",efecto);
         
         function efecto() {
 
@@ -82,6 +82,9 @@ $(function(){
                 fontWeight: 900,
                 color:"red"
             });
+            $(".text").css({
+                color:"black"
+            })
         };
 
 

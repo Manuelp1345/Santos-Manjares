@@ -535,15 +535,15 @@ h2 {
     height: 30rem;
     border: 1.5px solid #7e7e7e;
 }
-.image-galery p {
+.image-galery .img-1 {
     font-size: 2.5rem;
     position: relative;
 }
-.image-galery p {
+.image-galery .img-1 {
     font-size: 2.5rem;
     position: relative;
 }
-.image-galery p::after {
+.image-galery .img-1::before {
     font-family: "Font Awesome 5 Free";
     content: '\f004';
     font-size: 8rem;
@@ -551,6 +551,26 @@ h2 {
     top: -3rem;
     left: 12.3rem;
     
+}
+.image-galery .text {
+    font-size: 2.5rem;
+    position: relative;
+}
+.image-galery .text {
+    font-size: 2.5rem;
+    position: relative;
+}
+.image-galery .text::after {
+    font-family: 'gothambook', sans-serif;
+    content: '';
+    font-size: 8rem;
+    position: absolute;
+    top: 0rem;
+    left: 12.3rem;
+    
+}
+.blanco{
+    color: white;
 }
 
 /** Trabaja con Nosotros **/
