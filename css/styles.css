@@ -498,13 +498,18 @@ h2 {
     font-size: 2.5rem;
     position: relative;
 }
+.image-galery p {
+    font-size: 2.5rem;
+    position: relative;
+}
 .image-galery p::after {
-    font-family: 'fontAwesome';
+    font-family: "Font Awesome 5 Free";
     content: '\f004';
     font-size: 8rem;
     position: absolute;
     top: -3rem;
     left: 12.3rem;
+    
 }
 
 /** Trabaja con Nosotros **/
