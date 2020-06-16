@@ -93,6 +93,13 @@ h2 {
 .bar {
     background-color: #a51318;
 }
+.sm-log img {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    color: white;
+    background-color: grey;
+}
 .main-nav {
     display: flex;
     justify-content: flex-end;
