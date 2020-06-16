@@ -1,4 +1,5 @@
-$(Document).ready(function(){
+$(function(){
+    "use strict";
     //EFECTO Promos
     var ocultar=0;
 
@@ -70,4 +71,20 @@ $(Document).ready(function(){
         $(function () {
             $('.customFileInput').customFileInput();
         });
+
+        
+        
+        $(".image-galery p").on("click",efecto);
+        
+        function efecto() {
+
+            $(this).css({
+                fontWeight: 900,
+                color:"red"
+            });
+        };
+
+
+
+
 });
