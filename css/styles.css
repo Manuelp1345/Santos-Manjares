@@ -7,28 +7,60 @@ html {
 }
 body {
     background-color: #fdf3c5;
-    font-family: 'heinekenregular';
+    font-family: 'gothambook';
     overflow: hidden;
 }
 img {
     max-width: 100%;
 }
 h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'gothambold', sans-serif;
     font-size: 3.5rem;
     margin-bottom: 0;
-}
-@font-face {
-    font-family: 'heinekenregular';
-    src: url('../fonts/heinekenHeineken.eot');
-    src: url('../fonts/heinekenHeineken.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/heinekenHeineken.woff2') format('woff2'),
-         url('../fonts/heinekenHeineken.woff') format('woff'),
-         url('../fonts/heinekenHeineken.svg#heinekenregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: bold;
 }
 
+@font-face {
+    font-family: 'gothambold';
+    src: url('../fonts/sm_1-webfont.eot');
+    src: url('../fonts/sm_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sm_1-webfont.woff2') format('woff2'),
+         url('../fonts/sm_1-webfont.woff') format('woff'),
+         url('../fonts/sm_1-webfont.svg#gothambold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gothambook';
+    src: url('../fonts/sm_2-webfont.eot');
+    src: url('../fonts/sm_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sm_2-webfont.woff2') format('woff2'),
+         url('../fonts/sm_2-webfont.woff') format('woff'),
+         url('../fonts/sm_2-webfont.svg#gothambook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'heineken';
+    src: url('../fonts/sm_3-webfont.eot');
+    src: url('../fonts/sm_3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sm_3-webfont.woff2') format('woff2'),
+         url('../fonts/sm_3-webfont.woff') format('woff'),
+         url('../fonts/sm_3-webfont.svg#heinekenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 /* Color #49b6c2 Blue - #fde37e Orange - #a51318 Red */
 /*  font-family: 'Oswald', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -73,7 +105,7 @@ h2 {
 }
 .line-left {
     position: relative;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'gothambold', sans-serif;
     background-color: #a51318;
     width: 20%;
     height: .5rem;
@@ -83,7 +115,7 @@ h2 {
     margin-top: -1.1rem;
 }
 .m-top p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'gothambook', sans-serif;
 }
 
 /* Main-Page */
@@ -104,10 +136,9 @@ h2 {
     height: 6rem;
 }
 .main-nav a {   
-    font-family: 'heinekenregular';
+    font-family: 'heineken';
     color: white;
     font-size: 2rem;
-    font-weight: lighter;
     margin-right: 3rem;
     text-decoration: none;
     transition: all .3s linear;
@@ -144,7 +175,7 @@ h2 {
     color: white;
     transform: rotate(-90deg);
     text-transform: uppercase;
-    font-family: 'heinekenregular';
+    font-family: 'heineken';
     font-size: 2rem;
 }
 .addres i {
@@ -180,7 +211,7 @@ h2 {
 }
 .promo .thumb h2{
     font-size: 4rem;
-    font-family: 'heinekenregular';
+    font-family: 'heineken';
     position: absolute;
     color: #fdf3c5;
     transform: rotate(-90deg);
@@ -195,7 +226,7 @@ h2 {
 .texto-promo{
     text-align: center;
     color: #fdf3c5;
-    font-family: 'heinekenregular';
+    font-family: 'gothambold';
     background: #a51318;
     border: 0px solid #000000;
     border-radius: 0px 0px 0px 2rem;
@@ -213,7 +244,7 @@ h2 {
     line-height: 2.5rem;
 }
 .texto-promo p span{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "gothambook", Helvetica, sans-serif;
     font-weight: 400;
 }
 
@@ -228,7 +259,7 @@ h2 {
 .line-footer::before { 
     content: ' - BUENOS AIRES - ';
     position: relative;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'gothambold', sans-serif;
     font-weight: bold;
     color: #a51318;
     background-color: #fde37e;
@@ -307,7 +338,7 @@ h2 {
 
 /** Nosotros **/
 .main-about-us {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'gothambold', sans-serif;
 }
 .m-top p {
     display: inline;
@@ -332,7 +363,7 @@ h2 {
     margin: 0;
 }
 .about-us p span {
-    font-weight: bold;
+    font-family: 'gothambold', sans-serif;
 }
 .our-history {
     border-top: 1px solid #a51318;
@@ -342,11 +373,14 @@ h2 {
 .our-history h3 {
     font-size: 3rem;
     font-weight: 400;
+    font-family: "gothambook", Helvetica, sans-serif;
+
 }
 .our-history h3 span {
-    font-weight: bold;
+    font-family: 'gothambold', sans-serif;
 }
 .our-history p {
+    font-family: "gothambook", Helvetica, sans-serif;
     font-size: 2rem;
     font-weight: 300;
     width: 70%;
@@ -373,7 +407,7 @@ h2 {
     color: #a51318;
     font-size: 4.5rem;
     margin: 0;
-    font-weight: 900;
+    font-weight: bold;
 }
 .our-history-images p {
     font-size: 2.3rem;
@@ -410,7 +444,7 @@ h2 {
     margin: 0 auto;
 }
 .experience-talk p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'gothambook', sans-serif;
     font-size: 1.4rem;
     margin: 0;
 }
@@ -429,7 +463,7 @@ h2 {
 .certificate-images {
     display: flex;
     justify-content: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'gothambold', sans-serif;
     padding-top: 5rem;
     text-align: center;
 }
@@ -462,7 +496,7 @@ h2 {
 .share-experience {
     width: 60%;
     margin: 12rem auto;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'gothambold', sans-serif;
 }
 .share-experience h3{
     font-size: 3.5rem;
@@ -477,7 +511,7 @@ h2 {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 4rem auto;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'gothambook', sans-serif;
     text-align: center;
 }
 .image-galery {
@@ -514,7 +548,7 @@ h2 {
 
 /** Trabaja con Nosotros **/
 .main-jobs{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'gothambook', sans-serif;
 }
 .contenedor-jobs{
     display: grid;
@@ -526,8 +560,7 @@ h2 {
     grid-row: 1/3;
     text-align: center;
     font-size: 2.7rem;
-    font-weight: bold;
-    font-family: "Open Sans";
+    font-family: "gothambold";
 }
 .form-jobs{
     grid-column: 4/10;
@@ -558,7 +591,7 @@ h2 {
     padding: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: "Open Sans";
+    font-family: "gothambold";
 }
 .form-jobs .text{
     display: none;
@@ -593,8 +626,8 @@ h2 {
     text-decoration: none;
     background: #a51318;
     padding: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.7rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.9rem;
     border: 3px solid #a51318;
     background: #a51318 ;
     border-radius: 0 1rem 1rem 0;
