@@ -129,12 +129,33 @@ h2 {
     background-color: #a51318;
 }
 .sm-log img {
+    left: 5rem;
     position: absolute;
     width: 20%;
     height: 20%;
     color: white;
-    background-color: grey;
 }
+
+.ribbon {
+    position: absolute;
+    left: 5rem;
+    width: 13%;
+    height: 19%;
+    border-left: 85px solid black;
+    border-right: 85px solid black;
+    border-bottom: 43px solid transparent;
+}
+.ribbon2 {
+    position: absolute;
+    left: 4.9rem;
+    width: 13%;
+    height: 19%;
+    border-left: 86px solid #49b6c2;
+    border-right: 86px solid #49b6c2;
+    border-bottom: 41px solid transparent;
+    padding-bottom: 13.5rem;
+}
+
 .main-nav {
     display: flex;
     justify-content: flex-end;
