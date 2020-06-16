@@ -129,14 +129,15 @@ h2 {
     background-color: #a51318;
 }
 .sm-log img {
-    left: 5rem;
+    left: 6rem;
     position: absolute;
-    width: 20%;
-    height: 20%;
+    width: 12%;
+    height: 17%;
     color: white;
 }
 
-.ribbon {
+.ribbon::after {
+    content: '';
     position: absolute;
     left: 5rem;
     width: 13%;
@@ -145,7 +146,8 @@ h2 {
     border-right: 85px solid black;
     border-bottom: 43px solid transparent;
 }
-.ribbon2 {
+.ribbon2::after {
+    content: "";
     position: absolute;
     left: 4.9rem;
     width: 13%;
