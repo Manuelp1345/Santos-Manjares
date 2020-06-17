@@ -132,7 +132,7 @@ h2 {
     left: 6rem;
     position: absolute;
     width: 12%;
-    height: 17%;
+    height: 15%;
     color: white;
 }
 
@@ -143,8 +143,8 @@ h2 {
     width: 13%;
     height: 19%;
     border-left: 85px solid black;
-    border-right: 85px solid black;
-    border-bottom: 43px solid transparent;
+    border-right: 86px solid black;
+    border-bottom: 42.5px solid transparent;
 }
 .ribbon2::after {
     content: "";
@@ -153,11 +153,10 @@ h2 {
     width: 13%;
     height: 19%;
     border-left: 86px solid #49b6c2;
-    border-right: 86px solid #49b6c2;
-    border-bottom: 41px solid transparent;
-    padding-bottom: 13.5rem;
+    border-right: 87px solid #49b6c2;
+    border-bottom: 43px solid transparent;
+    padding-bottom: 13.4rem;
 }
-
 .main-nav {
     display: flex;
     justify-content: flex-end;
@@ -193,9 +192,9 @@ h2 {
     background-position: center;
 }
 .addres {
-    position: relative;
-    flex-basis: 20%;
-    padding-top: 30vh;
+    position: absolute;
+    padding-top: 25vh;
+    left: -6rem;
 }
 .addres p {
     transform: rotate(-90deg);
@@ -214,8 +213,9 @@ h2 {
     font-size: 2.3rem;
 }
 .title {
-    position: relative;
-    flex-basis: 50%;
+    top: 21%;
+    left: 16.5%;
+    position: absolute;
     width: 69%;
     color: white;
     display: flex;
