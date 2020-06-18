@@ -19,7 +19,6 @@ h2 {
     margin-bottom: 0;
     font-weight: bold;
 }
-
 @font-face {
     font-family: 'gothambold';
     src: url('../fonts/sm_1-webfont.eot');
@@ -29,12 +28,7 @@ h2 {
          url('../fonts/sm_1-webfont.svg#gothambold') format('svg');
     font-weight: bold;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'gothambook';
     src: url('../fonts/sm_2-webfont.eot');
@@ -44,12 +38,7 @@ h2 {
          url('../fonts/sm_2-webfont.svg#gothambook') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'heineken';
     src: url('../fonts/sm_3-webfont.eot');
@@ -59,7 +48,6 @@ h2 {
          url('../fonts/sm_3-webfont.svg#heinekenregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 /* Color #49b6c2 Blue - #fde37e Orange - #a51318 Red */
 /*  font-family: 'Oswald', sans-serif;
@@ -119,7 +107,7 @@ h2 {
 }
 
 /* Main-Page */
-.main-page {
+.main-page-index {
     height: 100%;
     width: 100%;
 }
