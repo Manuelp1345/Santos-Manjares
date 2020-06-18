@@ -130,36 +130,14 @@ h2 {
 }
 .sm-log img {
     z-index: 2;
-    left: 6rem;
+    top: -1%;
+    left: 3.5rem;
     position: absolute;
-    width: 12%;
-    height: 15%;
+    width:16%;
+    height: 24%;
     color: white;
 }
 
-.ribbon::after {
-    z-index: 2;
-    content: '';
-    position: absolute;
-    left: 5rem;
-    width: 13%;
-    height: 19%;
-    border-left: 85px solid black;
-    border-right: 86px solid black;
-    border-bottom: 42.5px solid transparent;
-}
-.ribbon2::after {
-    z-index: 2;
-    content: "";
-    position: absolute;
-    left: 4.9rem;
-    width: 13%;
-    height: 19%;
-    border-left: 86px solid #49b6c2;
-    border-right: 87px solid #49b6c2;
-    border-bottom: 43px solid transparent;
-    padding-bottom: 13.4rem;
-}
 .main-nav {
     display: flex;
     justify-content: flex-end;
@@ -447,8 +425,16 @@ h2 {
     width: 25rem;
     height: 25rem;
     border-radius: 50%;
-    border: 2px solid #a51318;
+    border: 2px solid transparent;
     padding: 1rem;
+}
+.our-history-images .adorno{
+    position: absolute;
+    width: 80%;
+    height: 54%;
+    left: 9.5%;
+    top: -1%;
+    vertical-align: top;
 }
 .our-history-images h3 {
     color: #a51318;
@@ -463,12 +449,14 @@ h2 {
     margin: 0 auto;
 }
 .mission {
+    position: relative;
     text-align: center;
     flex-basis: 50%;
 }
 .view {
+    position: relative;
     text-align: center;
-    flex-basis: 45%;
+    flex-basis: 50%;
 }
 .under-line-red {
     width: 70%;
@@ -515,13 +503,25 @@ h2 {
     text-align: center;
 }
 .certificate-year {
+    position: relative;
     flex-basis: 33.3%;
+}
+.certificate-year .adorno-cert{
+    position: absolute;
+    width: 72%;
+    height: 58%;
+    left: 14.1%;
+    top: -2%;
+    vertical-align: top;
+}
+.experience-talk .icono-xp img{
+    width: 12%;
 }
 .certificate-year img {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    border: 5px solid #a51318;
+    border: 5px solid transparent;
 }
 .certificate-year h3 {
     font-size: 4rem;
