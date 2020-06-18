@@ -120,8 +120,8 @@ h2 {
 
 /* Main-Page */
 .main-page {
-    height: 100vh;
-    overflow: auto;
+    height: 100%;
+    width: 100%;
 }
 
 /** Header-Nav **/
@@ -140,7 +140,6 @@ h2 {
     height: 325%;
     color: white;
 }
-
 .main-nav {
     display: flex;
     justify-content: flex-end;
@@ -166,63 +165,33 @@ h2 {
 }
 
 /** Main **/
-.main-content {
-    display: flex;
-    height: 75vh;
-}
-.vd{
-    background: #000;
-}
-.video{
+.video {
     z-index: 1;
+    width: 100%;
     position: absolute;
-    width: 119%;
-    height: auto;
-    top: 7.8%;
-    left: -5%;
 }
-.video::after {
-    content: "";
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
 }
 .addres {
     z-index: 2;
-    position: absolute;
-    margin-top: 36vh;
-    left: -6rem;
+    grid-column: 2 / 4;
+    grid-row: 3 / 12;
 }
-.addres p {
-    transform: rotate(-90deg);
+.addres a img {
+    height: 75%;
 }
-.addres a {
-    text-decoration: none;
-    color: white;
-    transform: rotate(-90deg);
-    text-transform: uppercase;
-    font-family: 'heineken';
-    font-size: 2rem;
-}
-.addres i {
-    transform: rotate(90deg);
-    padding: 1.2rem 0 0 1.2rem;
-    font-size: 2.3rem;
-}
-.title {
+.title-one {
     z-index: 2;
-    top: 25%;
-    left: 16.5%;
-    position: absolute;
-    width: 69%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    grid-column: 4 / 10;
+    grid-row: 3 / 6;
 }
-.title h2{
-    margin-top: 10vh;
-}
-.title img {
-    width: 70rem;
+.title-two {
+    z-index: 2;
+    grid-column: 5 / 9;
+    grid-row: 6 / 10;
 }
 .promo{
     z-index: 2;
