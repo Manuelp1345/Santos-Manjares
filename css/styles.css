@@ -128,13 +128,16 @@ h2 {
 .bar {
     background-color: #a51318;
 }
+.bar .container {
+    position: relative;
+}
 .sm-log img {
     z-index: 2;
-    top: -1%;
-    left: 3.5rem;
+    top: -11%;
+    left: -4.5%;
     position: absolute;
-    width:16%;
-    height: 24%;
+    width:17%;
+    height: 325%;
     color: white;
 }
 
@@ -173,9 +176,10 @@ h2 {
 .video{
     z-index: 1;
     position: absolute;
-    height: 95vh;
-    top: 7.85%;
-    left: -6%;
+    width: 119%;
+    height: auto;
+    top: 7.8%;
+    left: -5%;
 }
 .video::after {
     content: "";
@@ -335,6 +339,18 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+}
+.SM-lg{
+    text-align: center;
+    width: 38%;
+    display: inline-block;
+    vertical-align: top;
+    margin: -0.2784%;
+    padding: 0;
+}
+.SM-lg img{
+    vertical-align: top;
 }
 .location {
     background: #fdf3c5;
