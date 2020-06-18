@@ -149,6 +149,9 @@ h2 {
 }
 
 /** Main **/
+.index {
+    background-color: #000000;
+}
 .video {
     z-index: 1;
     width: 100%;
