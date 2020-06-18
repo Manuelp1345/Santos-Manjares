@@ -630,6 +630,9 @@ h2 {
     border-radius: 1rem;
     font-size: 1rem;
     padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "gothambold";
 }
 .form-jobs .btn-jobs{
     border: 3px solid #fde37e;
@@ -683,5 +686,30 @@ h2 {
     border-radius: 0 1rem 1rem 0;
     color: #fdf3c5;
 }
-
-
+.form-jobs .asuntos{
+    border: 3px solid #a51318;
+/*     background: #a51318; */
+    border-radius: 1rem;
+/*     color: #fdf3c5; */
+    margin: 1rem;
+    width: 94%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "gothambold";
+}
+.form-jobs .mensaje{
+    margin: 1rem;
+    width: 94%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "gothambold";
+    border: 2px solid #a51318;
+    border-radius: 1rem;
+    background-color: white;
+    height: 10rem;
+    max-width: 59rem;
+    min-width: 59rem;
+    min-height: 15rem;
+}
