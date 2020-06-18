@@ -8,7 +8,6 @@ html {
 body {
     background-color: #fdf3c5;
     font-family: 'gothambook';
-    overflow: hidden;
 }
 img {
     max-width: 100%;
@@ -75,6 +74,9 @@ h2 {
         max-width: 1100px;
     }
 }
+.overflow {
+    overflow: hidden;
+}
 .section {
     padding: 3rem 0;
 }
@@ -104,12 +106,6 @@ h2 {
 }
 .m-top p {
     font-family: 'gothambook', sans-serif;
-}
-
-/* Main-Page */
-.main-page-index {
-    height: 100%;
-    width: 100%;
 }
 
 /** Header-Nav **/
@@ -165,11 +161,13 @@ h2 {
 }
 .addres {
     z-index: 2;
-    grid-column: 2 / 4;
+    grid-column: 1 / 2;
     grid-row: 3 / 12;
+    text-align: end;
 }
 .addres a img {
-    height: 75%;
+    height: 65%;
+    padding-top: 3rem;
 }
 .title-one {
     z-index: 2;
