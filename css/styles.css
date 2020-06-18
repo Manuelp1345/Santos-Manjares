@@ -129,6 +129,7 @@ h2 {
     background-color: #a51318;
 }
 .sm-log img {
+    z-index: 2;
     left: 6rem;
     position: absolute;
     width: 12%;
@@ -137,6 +138,7 @@ h2 {
 }
 
 .ribbon::after {
+    z-index: 2;
     content: '';
     position: absolute;
     left: 5rem;
@@ -147,6 +149,7 @@ h2 {
     border-bottom: 42.5px solid transparent;
 }
 .ribbon2::after {
+    z-index: 2;
     content: "";
     position: absolute;
     left: 4.9rem;
@@ -186,12 +189,18 @@ h2 {
     display: flex;
     height: 75vh;
 }
-.video {
-    background-image: url(../img/SM-1.jpg);
-    background-size: cover;
-    background-position: center;
+.video{
+    z-index: 1;
+    position: absolute;
+    width: 1515px;
+    top: 7.8%;
+    left: -3%;
+}
+.video::after {
+    content: "";
 }
 .addres {
+    z-index: 2;
     position: absolute;
     padding-top: 25vh;
     left: -6rem;
@@ -213,6 +222,7 @@ h2 {
     font-size: 2.3rem;
 }
 .title {
+    z-index: 2;
     top: 21%;
     left: 16.5%;
     position: absolute;
@@ -227,6 +237,7 @@ h2 {
     width: 70rem;
 }
 .promo{
+    z-index: 2;
     position: absolute;
     flex-basis: 25%;
     top: 35%;
