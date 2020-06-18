@@ -205,7 +205,7 @@ h2 {
 .addres {
     z-index: 2;
     position: absolute;
-    padding-top: 25vh;
+    margin-top: 36vh;
     left: -6rem;
 }
 .addres p {
@@ -226,7 +226,7 @@ h2 {
 }
 .title {
     z-index: 2;
-    top: 21%;
+    top: 25%;
     left: 16.5%;
     position: absolute;
     width: 69%;
@@ -236,6 +236,9 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+.title h2{
+    margin-top: 10vh;
+}
 .title img {
     width: 70rem;
 }
@@ -243,7 +246,7 @@ h2 {
     z-index: 2;
     position: absolute;
     flex-basis: 25%;
-    top: 35%;
+    top: 38%;
     right: -25rem;
     background: #a51318;
     padding-left: 4.8rem;
