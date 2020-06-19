@@ -168,7 +168,7 @@ h2 {
     z-index: 2;
     grid-column: 2 / 3;
     grid-row: 4 / 10;
-    margin-left: -51%;
+    margin-left: -50%;
 }
 .addres a img{
     height: 80%;
@@ -226,7 +226,7 @@ h2 {
     color: #fdf3c5;
     transform: rotate(-90deg);
     top :24%;
-    left: -5.5rem;
+    left: -18%;
 }
 .promo .thumb img{
     width: 100%;

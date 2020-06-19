@@ -28,7 +28,7 @@ $(function(){
             $(".thumb h2").html('<i class="fas fa-angle-double-up"> Promos');
             $(".thumb h2").css({
                 transition: "all .3s linear",
-                left: "-5.5rem",
+                left: "-18%",
             })
             $(".promo").animate({
                 right: "-25rem"
