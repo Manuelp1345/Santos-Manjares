@@ -82,8 +82,8 @@ $(function(){
                 fontWeight: 900,
                 color:"red"
             });
-            $(".text").css({
-                color:"black"
+            $(this).children("a").css({
+                color:"white"
             })
         };
 
