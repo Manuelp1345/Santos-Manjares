@@ -655,6 +655,14 @@ h2 {
     font-size: 2.7rem;
     font-family: "gothambold";
 }
+.titulo-admin{
+    margin-top: 9.3rem;
+    grid-column: 2/12;
+    grid-row: 1/3;
+    text-align: center;
+    font-size: 2.7rem;
+    font-family: "gothambold";
+}
 .form-jobs{
     grid-column: 4/10;
     grid-row: 3/9;
@@ -667,7 +675,7 @@ h2 {
 .form-jobs .nac-jobs,
 .form-jobs .correo-jobs,
 .form-jobs .apellido-jobs {
-    width: 45%;
+    width: 94%;
     margin: 1rem;
     border: 2px solid #a51318;
     border-radius: 1rem;
@@ -677,6 +685,23 @@ h2 {
     font-weight: bold;
     font-family: "gothambold";
 }
+@media (min-width: 900px) {
+    .form-jobs .nombre-jobs,
+    .form-jobs .nac-jobs,
+    .form-jobs .correo-jobs,
+    .form-jobs .apellido-jobs {
+        width: 45%;
+        margin: 1rem;
+        border: 2px solid #a51318;
+        border-radius: 1rem;
+        font-size: 1rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: "gothambold";
+    }
+}
+
 .form-jobs .btn-jobs{
     border: 3px solid #fde37e;
     background: #a51318;
@@ -693,32 +718,60 @@ h2 {
     display: none;
 }
 .customFileInput{
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+@media (min-width: 768px) {
+    .customFileInput{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+}
+.filenme{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "gothambold";
 }
 .form-jobs .inputWrap{
     grid-column: 1/4;
-    grid-row: 2/3;
-    width: 80%;
+    grid-row: 1/2;
+    width: 94%;
+    padding: 1rem;
     align-items: center;
     justify-content: center;
     background: white;
-    padding: 1rem;
     border: 2px solid #a51318;
     border-radius: 1rem;
     margin-left: 1rem;
 }
 .form-jobs .btWrap{
-    grid-column: 3/6;
+    grid-column: 1/4;
     grid-row: 2/3;
     margin: 1rem;
-    padding: 0;
-    text-align: right;
-    width: 82%;
+    text-align: center;
     font-size: 1.2rem;
+    color: #fdf3c5;
+    text-decoration: none;
 }
-.form-jobs .bt{
+.form-jobs .bt a{
+    color: #fdf3c5;
+    text-decoration: none;
+
+}
+.form-jobs .bt {
+    width: 94%;
+    background: #a51318;
+    padding: 1rem;
+    border: 3px solid #a51318;
+    background: #a51318 ;
+    border-radius: 0 0 1rem 1rem;
+    margin-top: -2%;
+}
+.form-jobs .bts{
     text-decoration: none;
     background: #a51318;
     padding: 1rem;
@@ -728,6 +781,11 @@ h2 {
     background: #a51318 ;
     border-radius: 0 1rem 1rem 0;
     color: #fdf3c5;
+}
+.form-jobs .ins{
+    font-size: 2rem;
+    font-weight: 900;
+    color: black;
 }
 .form-jobs .asuntos{
     border: 3px solid #a51318;
@@ -755,4 +813,104 @@ h2 {
     max-width: 59rem;
     min-width: 59rem;
     min-height: 15rem;
+}
+.form-admin .usuario,
+.form-admin .clave{
+    width: 94%;
+    margin: 1rem;
+    border: 2px solid #a51318;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "gothambold";
+
+}
+.form-admin{
+    margin-top: 4rem;
+}
+.alert{
+    width: 94%;
+    padding: 1em;
+    color: white;
+    border-radius: 1rem;
+    margin-bottom: 28px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'gothambook', sans-serif;
+    margin-left: 1rem;
+}
+.barra{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    width: 94%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+    height: 25px;
+}
+.barra_azul{
+    background-color: #247cc0;
+    border-radius: 10px;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 0%;
+}
+.barra_verde{
+    background: #2ea265!important;
+}
+#barra_estado span{
+    margin-top: 2rem;
+    color: #fff;
+    font-weight: bold;
+    line-height: 2px;
+}
+.alert.error{
+    background: #f2dede;
+    border: 1px solid #a94442;
+    color: #a94442;
+    font-size: 2rem;
+}
+.alert.success{
+    background: #4caf58;
+    color: white!important;
+    border: 1px solid transparent!important;
+}
+@media (min-width: 768px) {
+    .form-jobs .inputWrap{
+        grid-column: 1/4;
+        grid-row: 2/2;
+        width: 94%;
+        height: 3.5rem;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        padding: 1rem;
+        border: 2px solid #a51318;
+        border-radius: 1rem;
+        margin-left: 1rem;
+    }
+    .form-jobs .btWrap{
+        grid-column: 3/6;
+        grid-row: 2/2;
+        padding: 0;
+        text-align: right;
+        width: 82%;
+        font-size: 1.2rem;
+    }
+    .form-jobs .bt{
+        margin-top: 0;
+        background: #a51318;
+        padding: 1rem;
+        padding-top: 0.9rem;
+        padding-bottom: 0.9rem;
+        border:2px solid #a51318;
+        background: #a51318 ;
+        border-radius: 0px 20px 20px 0px;
+        color: #fdf3c5;
+    }
 }
