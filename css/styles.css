@@ -158,20 +158,19 @@ h2 {
     position: absolute;
 }
 .main-content {
+    z-index: 2;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(16, 1fr);
-    height: 500%;
+    grid-template-rows: repeat(12,1fr);
+    height: 90vh;
 }
 .addres {
     z-index: 2;
-    grid-column: 1 / 2;
-    grid-row: 3 / 12;
-    text-align: right;
+    grid-column: 2 / 3;
+    grid-row: 4 / 10;
 }
-.addres a img {
-    height: 65%;
-    padding-top: 3rem;
+.addres a img{
+    height: 80%;
 }
 .title-one {
     z-index: 2;
@@ -181,12 +180,12 @@ h2 {
 .title-two {
     z-index: 2;
     grid-column: 5 / 9;
-    grid-row: 6 / 11;
+    grid-row: 6 / 8;
 }
 .social-index {
     z-index: 2;
     grid-column: 9 / 12;
-    grid-row: 13 / 14;
+    grid-row: 11 / 12;
     text-align: right;
     display: flex;
     flex-direction: column;
@@ -198,7 +197,8 @@ h2 {
 .footer-index {
     z-index: 2;
     grid-column: 1 / 13;
-    grid-row: 14 / 16;
+    grid-row: 11 / 13;
+    padding-top: 4rem;
 }
 
  /* Promo */
