@@ -331,6 +331,9 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
 }
+.img2 a{
+    display: inline-block;
+}
 .img2 img{
     vertical-align: top;
     width: 50%;

@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -37,18 +38,21 @@
 
         <main>
                 <div class="menu bg">
-                    <img src="img/entradas.jpg" alt="">
-                    <img src="img/carnes.jpg" alt="">
-                <div class="img2">
-                    <img src="img/sandwichs.jpg" alt="">
-                    <img src="img/minuta.jpg" alt="">
-                </div>
-                    <img src="img/bebidas.jpg" alt="">
-
-
-
-
- 
+                    <a href="img/menu/entradasm.jpg" data-lightbox="menu">
+                        <img src="img/entradas.jpg" alt="">
+                    </a>
+                    <a href="img/menu/carnesm.jpg" data-lightbox="menu">
+                        <img src="img/carnes.jpg" alt="">
+                    </a>
+                    <a href="img/menu/smm.jpg" data-lightbox="menu">
+                        <div class="img2">
+                            <img src="img/sandwichs.jpg" alt="">
+                            <img src="img/minuta.jpg" alt="">
+                        </div>
+                    </a>
+                    <a href="img/menu/bebidasm.jpg" data-lightbox="menu">
+                        <img src="img/bebidas.jpg" alt="">
+                    </a>
                 </div>
 
         </main>
@@ -73,6 +77,8 @@
 
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/lightbox.js"></script>
 
     
 </body>
