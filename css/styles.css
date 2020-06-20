@@ -331,6 +331,7 @@ h2 {
     margin-top: 3rem;
 }
 .img2{
+    height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -341,7 +342,8 @@ h2 {
 .img2 img{
     vertical-align: top;
     width: 50%;
-    height: 25rem;
+    height: 22rem;
+
 }
 .SM-lg {
     text-align: center;
