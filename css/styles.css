@@ -20,7 +20,7 @@ h2 {
 }
 @media (min-width: 768px) {
     h2 {
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
 }
 @font-face {
@@ -322,7 +322,11 @@ h2 {
     font-size: 6rem;
     letter-spacing: 0.4rem;
 }
+.menu{
+    width: 100%;
+}
 .menu img{
+    width: 100%;
     vertical-align: top;
     margin-top: 3rem;
 }
@@ -423,11 +427,11 @@ h2 {
     margin: 0 auto 7rem auto;
 }
 .about-us h2 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin-bottom: 0;
 }
 .about-us p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin: 0;
 }
 .about-us p span {
@@ -535,7 +539,7 @@ h2 {
 }
 .experience-talk p {
     font-family: 'gothambook', sans-serif;
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin: 0;
 }
 .experience-talk div {
@@ -624,7 +628,7 @@ h2 {
     text-align: center;
 }
 .share-experience h3{
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 0;
     text-align: center;
 }
@@ -644,7 +648,7 @@ h2 {
     }
 }
 .share-experience p {
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin: 0;
 }
 .galery {
@@ -719,7 +723,7 @@ h2 {
 .contenedor-jobs{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
 .titulo-jobs{
     grid-column: 2/12;
@@ -818,7 +822,7 @@ h2 {
     justify-content: center;
     background: white;
     border: 2px solid #a51318;
-    border-radius: 1rem;
+    border-radius: 1rem 1rem 0 0;
     margin-left: 1rem;
 }
 .form-jobs .btWrap{
