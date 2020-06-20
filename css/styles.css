@@ -143,6 +143,7 @@ h2 {
     margin-right: 3rem;
     text-decoration: none;
     transition: all .3s linear;
+    letter-spacing: 0.1rem;
 }
 .main-nav a:last-of-type {
     margin-right: 0;
@@ -307,6 +308,33 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+}
+.banner-menu {
+    height: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.banner-menu h2{
+    font-family: 'heineken';
+    color: #a51318;
+    font-size: 6rem;
+    letter-spacing: 0.4rem;
+}
+.menu img{
+    vertical-align: top;
+    margin-top: 3rem;
+}
+.img2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img2 img{
+    vertical-align: top;
+    width: 50%;
+    height: 25rem;
 }
 .SM-lg {
     text-align: center;
