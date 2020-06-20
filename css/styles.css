@@ -264,30 +264,14 @@ h2 {
 
 /** Footer **/
 .line-footer {
-    margin-top: 8rem;
-    background-color: #fde37e;
-    height: .2rem;
-    width: 100%;
-    text-align: center;
-}
-.line-footer::before { 
-    content: ' - BUENOS AIRES - ';
-    position: relative;
-    font-family: 'gothambold', sans-serif;
-    font-weight: bold;
-    color: #a51318;
-    background-color: #fde37e;
-    border-radius: 1rem;
-    padding: 0 1rem;
-    font-size: 1.5rem;
-    top: -.8rem;
+    margin: 10rem 0 0 0;
 }
 .underline-footer{
     background-color: #a51318;
     width: 100%;
     text-align: center;
     font-family: "gothambook", Helvetica, sans-serif;
-
+    margin-top: -1.55rem;
 }
 .follows{
     padding-top: 0.1rem;
