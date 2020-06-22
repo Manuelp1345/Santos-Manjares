@@ -425,8 +425,18 @@ h2 {
     font-weight: bold;
 }
 .about-us {
-    width: 50%;
+    width: 90%;
     margin: 0 auto 7rem auto;
+}
+@media (min-width: 480px) {
+    .about-us {
+        width: 75%;
+    }
+}
+@media (min-width: 768px) {
+    .about-us {
+        width: 60%;
+    }
 }
 .about-us h2 {
     font-size: 4rem;
@@ -443,6 +453,8 @@ h2 {
     border-top: 1px solid #a51318;
     color: #a51318;
     text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
 }
 .our-history h3 {
     font-size: 3rem;
@@ -466,24 +478,40 @@ h2 {
     }
 }
 .our-history-images {
-    display: flex;
-    justify-content: center;
     line-height: 1.4;
 }
+@media (min-width: 1000px) {
+    .our-history-images {
+        display: flex;
+        justify-content: center;
+    }
+}
 .our-history-images img {
-    width: 25rem;
-    height: 25rem;
+    width: 18.5rem;
+    height: 18rem;
     border-radius: 50%;
     border: 2px solid transparent;
     padding: 1rem;
 }
 .our-history-images .adorno{
     position: absolute;
-    width: 80%;
-    height: 54%;
-    left: 9.5%;
-    top: -1%;
+    width: 30rem;
+    height: 19rem;
+    left: -.1rem;
+    top: -.3rem;
     vertical-align: top;
+}
+@media (min-width: 600px) {
+    .our-history-images img {
+        width: 25rem;
+        height: 25rem;
+    }
+    .our-history-images .adorno{
+        width: 43rem;
+        height: 27rem;
+        left: 4rem;
+        top: -1rem;
+    }
 }
 .our-history-images h3 {
     color: #a51318;
@@ -494,32 +522,58 @@ h2 {
 .our-history-images p {
     font-size: 2.3rem;
     font-weight: 500;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
-.mission {
-    position: relative;
-    text-align: center;
-    flex-basis: 50%;
+@media (min-width: 1000px) {
+    .our-history-images p {
+        width: 80%;
+    }
 }
+.mission,
 .view {
     position: relative;
     text-align: center;
-    flex-basis: 50%;
+    max-width: 30rem;
+    min-width: 30rem;
+    margin: 0 auto;
 }
-.under-line-red {
-    width: 70%;
-    max-width: 70%;
+.mission {
+    margin-bottom: 7rem;
+}
+@media (min-width: 600px) {
+    .mission,
+    .view {
+        max-width: 52rem;
+        min-width: 52rem;
+    }
+}
+@media (min-width: 1000px) {
+    .mission,
+    .view {
+        flex-basis: 50%;
+        max-width: 51.5rem;
+        min-width: 51.5rem;
+    }
+}
+.underline-red {
     border-bottom: 2px solid #a51318;
+    margin: 3rem auto 6rem auto;
+    width: 40%;
 }
-.flex-underline-red {
-    display: flex;
-    justify-content: center;
-}
-.flex-underline-red div {
-    flex-basis: 25%;
-    border-bottom: 2px solid #a51318;
-    margin: 4rem auto 0 auto;
+@media (min-width: 1000px) {
+    .flex-underline-red {
+        display: flex;
+        justify-content: center;
+    }
+    .flex-underline-red div {
+        flex-basis: 25%;
+        border-bottom: 2px solid #a51318;
+        margin: 4rem auto 0 auto;
+    }
+    .underline-red {
+        display: none;
+    }
 }
 
  /** Experiencia **/
