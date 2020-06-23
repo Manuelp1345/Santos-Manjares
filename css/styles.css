@@ -265,16 +265,21 @@ h2 {
 
 /** Footer **/
 .line-footer {
-    margin: 10rem 0 0 0;
+    margin: 10rem 0 .88rem 0;
+    text-align: center;
+}
+.line-footer img {
+    width: 23rem;
 }
 .underline-footer{
     background-color: #a51318;
+    border-top: 2px solid #fde37e;
     width: 100%;
     text-align: center;
     font-family: "gothambook", Helvetica, sans-serif;
     margin-top: -1.9rem;
 }
-.follows{
+.follows {
     padding-top: 0.1rem;
     padding-bottom: 1rem;
     font-size: 2rem;
@@ -284,20 +289,20 @@ h2 {
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(1,1fr);
 }
-.follow{
+.follow {
     padding: 1rem;
     border-bottom: 2px solid white ;
     width: 100%;
     grid-column: 2/6;
     grid-row: 0/2;
 }
-.iconos{
+.iconos {
     width: 100%;
     grid-column: 2/6;
     grid-row: 2/4;
 }
-.iconos img{
-    width: 5%;
+.iconos img {
+    width: 4.2rem;
 }
 
 /** Banner **/
@@ -316,30 +321,30 @@ h2 {
     background-size: cover;
     text-align: center;
 }
-.banner-menu h2{
+.banner-menu h2 {
     font-family: 'heineken';
     color: #a51318;
     font-size: 6rem;
     letter-spacing: 0.4rem;
 }
-.menu{
+.menu {
     width: 100%;
 }
-.menu img{
+.menu img {
     width: 100%;
     vertical-align: top;
     margin-top: 3rem;
 }
-.img2{
+.img2 {
     height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.img2 a{
+.img2 a {
     display: inline-block;
 }
-.img2 img{
+.img2 img {
     vertical-align: top;
     width: 50%;
     height: 22rem;
