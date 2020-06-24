@@ -129,26 +129,44 @@ h2 {
     height: 125%;
     color: white;
 }
+.menu-button {
+    text-align: right;
+    padding-top: 2.5rem;
+}
+.menu-button a {
+    font-size: 4rem;
+    color: white;
+    align-items: center;
+    margin-right: 2rem;
+}
+@media (min-width: 1000px) {
+    .menu-button {
+        display: none;
+    }
+}
 .main-nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10rem 0;
-    height: 6rem;
+    padding: .5rem 0 2rem 0;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
 }
 .main-nav a {   
-    display: block;
+    display: none;
     font-family: 'heineken';
     color: white;
     font-size: 2rem;
     margin: 0.4rem;
     text-decoration: none;
-    transition: all .3s linear;
+    transition: all .5s ease;
     letter-spacing: 0.1rem;
 }
-.main-nav a:last-of-type {
-    margin-right: 0;
+@media (min-width: 1000px) {
+    .main-nav a:last-of-type {
+        margin-right: 0;
+    }
 }
 .main-nav a:hover {
     color: black;
@@ -183,6 +201,12 @@ h2 {
         height: 325%;
         color: white;
     }
+}
+#menu-hidden {
+    transition: all .5s ease;
+}
+#menu-hidden:target a {
+    display: block; 
 }
 
 /** Main **/
