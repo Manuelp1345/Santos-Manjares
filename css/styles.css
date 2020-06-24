@@ -117,6 +117,11 @@ h2 {
 .bar {
     background-color: #a51318;
 }
+@media (min-width: 1000px) {
+    .bar {
+        height: 6rem!important;
+    }
+}
 .bar .container {
     position: relative;
 }
@@ -162,11 +167,6 @@ h2 {
     transition: all .5s ease;
     letter-spacing: 0.1rem;
 }
-@media (min-width: 1000px) {
-    .main-nav a:last-of-type {
-        margin-right: 0;
-    }
-}
 .main-nav a:hover {
     color: black;
     text-decoration: underline;
@@ -181,7 +181,8 @@ h2 {
         padding: 2rem 0;
         height: 6rem;
     }
-    .main-nav a {   
+    .main-nav a {
+        z-index: 2;
         display: block;
         font-family: 'heineken';
         color: white;
@@ -190,6 +191,9 @@ h2 {
         text-decoration: none;
         transition: all .3s linear;
         letter-spacing: 0.1rem;
+    }
+    .main-nav a:last-of-type {
+        margin-right: 0;
     }
     .sm-log img {
         z-index: 2;
