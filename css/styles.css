@@ -131,7 +131,7 @@ h2 {
 }
 .menu-button {
     text-align: right;
-    padding-top: 2.5rem;
+    padding: 1.5rem 0;
 }
 .menu-button a {
     font-size: 4rem;
@@ -149,7 +149,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: .5rem 0 2rem 0;
+    padding: .5rem 0;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
 }

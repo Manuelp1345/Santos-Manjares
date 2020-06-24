@@ -100,7 +100,7 @@ $(function(){
                     display:"show"
                 });
                 $(".bar").animate({
-                    "height": "30rem"
+                    "height": "28rem"
                 },1000);
                 $(".main-nav").css({
                     display:"flex"
