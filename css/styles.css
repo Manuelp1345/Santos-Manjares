@@ -335,7 +335,7 @@ h2 {
 }
 .footer-index {
     z-index: 2;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     grid-column: 1 / 13;
     grid-row: 10 / 13;
 }
