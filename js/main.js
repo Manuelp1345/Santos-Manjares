@@ -4,7 +4,7 @@ $(function(){
     var ocultar=0;
     var ocultar2=0;
 
-    $(".main-nav").fadeOut();
+    
 
         $('.promo a').on('click',function(e){
             e.preventDefault();
@@ -102,7 +102,12 @@ $(function(){
                 $(".bar").animate({
                     "height": "30rem"
                 },1000);
-                $(".main-nav").fadeIn();
+                $(".main-nav").css({
+                    display:"flex"
+                });
+                $(".main-nav").animate({
+                    display:"show"
+                });
                 ocultar2++;
             }else{
                 $(".sm-log img").animate({
@@ -115,7 +120,9 @@ $(function(){
                 $(".bar").animate({
                     "height": "7.1rem"
                 },1000);
-                $(".main-nav").fadeOut();
+                $(".main-nav").animate({
+                    display:"none"
+                });
                 ocultar2--;
             }
         } )
