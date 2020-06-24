@@ -2,6 +2,8 @@ $(function(){
     "use strict";
     //EFECTO Promos
     var ocultar=0;
+    var ocultar2=0;
+
     $(".main-nav").fadeOut();
 
         $('.promo a').on('click',function(e){
@@ -89,7 +91,7 @@ $(function(){
         };
 
         $("#menu").on("click", function(){
-            if (ocultar==0) {
+            if (ocultar2==0) {
                 $(".sm-log img").animate({
                     left:-500
                 },1000);
@@ -101,7 +103,7 @@ $(function(){
                     "height": "30rem"
                 },1000);
                 $(".main-nav").fadeIn();
-                ocultar++;
+                ocultar2++;
             }else{
                 $(".sm-log img").animate({
                     left: "-4.5%"
@@ -114,7 +116,7 @@ $(function(){
                     "height": "7.1rem"
                 },1000);
                 $(".main-nav").fadeOut();
-                ocultar--;
+                ocultar2--;
             }
         } )
 
