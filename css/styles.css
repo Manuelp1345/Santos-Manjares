@@ -122,25 +122,27 @@ h2 {
 }
 .sm-log img {
     z-index: 2;
-    top: -11%;
+    top:-11%;
     left: -4.5%;
     position: absolute;
-    width:17%;
-    height: 325%;
+    width:20%;
+    height: 125%;
     color: white;
 }
 .main-nav {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 2rem 0;
+    padding: 10rem 0;
     height: 6rem;
 }
 .main-nav a {   
+    display: block;
     font-family: 'heineken';
     color: white;
     font-size: 2rem;
-    margin-right: 3rem;
+    margin: 0.4rem;
     text-decoration: none;
     transition: all .3s linear;
     letter-spacing: 0.1rem;
@@ -152,6 +154,35 @@ h2 {
     color: black;
     text-decoration: underline;
     padding-bottom: 1rem;
+}
+@media (min-width: 1000px) {
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 2rem 0;
+        height: 6rem;
+    }
+    .main-nav a {   
+        display: block;
+        font-family: 'heineken';
+        color: white;
+        font-size: 2rem;
+        margin-right: 3rem;
+        text-decoration: none;
+        transition: all .3s linear;
+        letter-spacing: 0.1rem;
+    }
+    .sm-log img {
+        z-index: 2;
+        top: -11%;
+        left: -4.5%;
+        position: absolute;
+        width:17%;
+        height: 325%;
+        color: white;
+    }
 }
 
 /** Main **/
