@@ -93,7 +93,7 @@ $(function(){
         $("#menu").on("click", function(){
             if (ocultar2==0) {
                 $(".sm-log img").animate({
-                    left:-500
+                    left:-500,
                 },1000);
                 $(".main-nav a").animate({
                     opacity:1,
@@ -105,13 +105,13 @@ $(function(){
                 $(".main-nav").css({
                     display:"flex"
                 });
-                $(".main-nav").animate({
+/*                 $(".main-nav").animate({
                     display:"show"
-                });
+                }); */
                 ocultar2++;
             }else{
                 $(".sm-log img").animate({
-                    left: "-4.5%"
+                    left: "-4.5%",
                 },1000);
                 $(".main-nav a").animate({
                     opacity:0,
