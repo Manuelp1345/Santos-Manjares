@@ -154,7 +154,6 @@ h2 {
     -webkit-transition: all .5s ease;
 }
 .main-nav a {   
-    display: none;
     font-family: 'heineken';
     color: white;
     font-size: 2rem;

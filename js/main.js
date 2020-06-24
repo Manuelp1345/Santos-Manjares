@@ -2,6 +2,7 @@ $(function(){
     "use strict";
     //EFECTO Promos
     var ocultar=0;
+    $(".main-nav").fadeOut();
 
         $('.promo a').on('click',function(e){
             e.preventDefault();
@@ -86,6 +87,37 @@ $(function(){
                 color:"white"
             })
         };
+
+        $("#menu").on("click", function(){
+            if (ocultar==0) {
+                $(".sm-log img").animate({
+                    left:-500
+                },1000);
+                $(".main-nav a").animate({
+                    opacity:1,
+                    display:"show"
+                });
+                $(".bar").animate({
+                    "height": "30rem"
+                },1000);
+                $(".main-nav").fadeIn();
+                ocultar++;
+            }else{
+                $(".sm-log img").animate({
+                    left: "-4.5%"
+                },1000);
+                $(".main-nav a").animate({
+                    opacity:0,
+                    display:"hidde"
+                });
+                $(".bar").animate({
+                    "height": "7.1rem"
+                },1000);
+                $(".main-nav").fadeOut();
+                ocultar--;
+            }
+        } )
+
 
 
 
