@@ -82,7 +82,12 @@ h2 {
 .overflow {
     overflow-x: hidden;
     overflow-y: scroll!important;
-    position: fixed;
+}
+@media (min-width: 768px) {
+    .overflow {
+        overflow-x: hidden;
+        overflow-y: hidden!important;
+    }
 }
 .section {
     padding: 3rem 0;
@@ -252,12 +257,13 @@ h2 {
 /** Main **/
 .index {
     background-color: #000000;
+    height: 100%;
 }
 .video {
     z-index: 1;
     width: 400%;
     height: auto;
-    position: absolute;
+    position: fixed;
     transform: scale(.5,1);
     right: -150%;
 }
@@ -265,8 +271,6 @@ h2 {
     .video {
         z-index: 1;
         width: 300%;
-        height: auto;
-        position: absolute;
         right: -110%;
     }
 }
@@ -275,8 +279,6 @@ h2 {
         z-index: 1;
         width: 200%;
         transform: scale(.8,1);
-        height: auto;
-        position: absolute;
         right: -55%;
     }
 }
@@ -284,9 +286,7 @@ h2 {
     .video {
         z-index: 1;
         width: 120%;
-        height: auto;
         transform: none;
-        position: absolute;
         right: -17%;
     }
 }
@@ -383,10 +383,10 @@ h2 {
     margin: 0 auto .8rem auto;
 }
 
- /* Promo */
+ /** Promo **/
 .promo{
     z-index: 3;
-    position: absolute;
+    position: fixed;
     flex-basis: 25%;
     top: 38%;
     right: -25rem;
