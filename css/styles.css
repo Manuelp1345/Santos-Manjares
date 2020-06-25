@@ -299,52 +299,67 @@ h2 {
 }
 .addres {
     z-index: 2;
+    width: 90%;
+    height: 90%;
     grid-column: 2 / 3;
-    grid-row: 4 / 10;
+    grid-row: 7 / 13;
     margin-left: -50%;
+}
+@media (min-width: 700px) {
+    .addres {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (min-width: 1000px) {
+    .addres {
+        grid-column: 2 / 3;
+        grid-row: 4 / 10;
+    }   
 }
 .addres a img{
     height: 80%;
 }
 .title-one {
-    width: 140%;
+    width: 125%;
     z-index: 2;
-    grid-column: 3 / 10;
+    grid-column: 2 / 10;
     grid-row: 3 / 6;
 }
 .title-two {
-    width: 155%;
+    width: 133%;
     z-index: 2;
-    grid-column: 4 / 9;
+    grid-column: 3 / 9;
     grid-row: 6 / 8;
 }
-
 @media (min-width: 500px) {
     .title-one {
-        width: 130%;
+        width: 125%;
+        z-index: 2;
+        grid-column: 2 / 10;
+        grid-row: 3 / 6;
+    }
+    .title-two {
+        width: 133%;
+        z-index: 2;
+        grid-column: 3 / 9;
+        grid-row: 6 / 8;
+    }
+}
+@media (min-width: 1000px) {
+    .title-one {
+        width: 114%;
         z-index: 2;
         grid-column: 3 / 10;
         grid-row: 3 / 6;
+        margin: 0 auto;
     }
     .title-two {
-        width: 140%;
+        width: 120%;
         z-index: 2;
         grid-column: 4 / 9;
         grid-row: 6 / 8;
-    }
-}
-@media (min-width: 768px) {
-    .title-one {
-        width: 110%;
-        z-index: 2;
-        grid-column: 4 / 10;
-        grid-row: 3 / 6;
-    }
-    .title-two {
-        width: 110%;
-        z-index: 2;
-        grid-column: 5 / 9;
-        grid-row: 6 / 8;
+        margin: 0 auto;
     }
 }
 .social-index {
@@ -361,9 +376,11 @@ h2 {
 }
 .footer-index {
     z-index: 2;
-    margin-top: 3rem;
     grid-column: 1 / 13;
-    grid-row: 10 / 13;
+    grid-row: 12 / 13;
+}
+.footer-index .line-footer {
+    margin: 0 auto .8rem auto;
 }
 
  /* Promo */
@@ -443,20 +460,20 @@ h2 {
     color: white;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
 }
 .follow {
     padding: 1rem;
     border-bottom: 2px solid white ;
     width: 100%;
-    grid-column: 2/6;
-    grid-row: 0/2;
+    grid-column: 2 / 6;
+    grid-row: 0 / 2;
 }
 .iconos {
     width: 100%;
-    grid-column: 2/6;
-    grid-row: 2/4;
+    grid-column: 2 / 6;
+    grid-row: 2 / 4;
 }
 .iconos img {
     width: 4.2rem;
