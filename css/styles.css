@@ -84,9 +84,6 @@ h2 {
     overflow-y: scroll!important;
     position: fixed;
 }
-.overflow-x {
-    overflow-x: hidden;
-}
 .section {
     padding: 3rem 0;
 }
