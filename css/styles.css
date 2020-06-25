@@ -255,6 +255,10 @@ h2 {
     background-color: #000000;
     height: 100%;
 }
+.index header {
+    z-index: 3;
+    position: relative;
+}
 .video {
     z-index: 1;
     width: 400%;
