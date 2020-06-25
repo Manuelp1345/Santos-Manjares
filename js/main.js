@@ -105,9 +105,9 @@ $(function(){
                 $(".main-nav").css({
                     display:"flex"
                 });
-/*                 $(".main-nav").animate({
-                    display:"show"
-                }); */
+                $(".video").css({
+                    top:"8.5rem"
+                });
                 ocultar2++;
             }else{
                 $(".sm-log img").animate({
@@ -122,6 +122,9 @@ $(function(){
                 },1000);
                 $(".main-nav").animate({
                     display:"none"
+                });
+                $(".video").css({
+                    top:"none"
                 });
                 ocultar2--;
             }
