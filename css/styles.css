@@ -1098,7 +1098,7 @@ h2 {
 .form-jobs .mensaje{
     margin: 1rem;
     width: 96%;
-    padding: 1rem;
+    padding: 1rem; 
     font-size: 1.5rem;
     font-weight: bold;
     font-family: "gothambold";
@@ -1229,3 +1229,4 @@ h2 {
         color: #fdf3c5;
     }
 }
+
