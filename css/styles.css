@@ -959,6 +959,7 @@ h2 {
     font-family: "gothambold";
 }
 .form-jobs{
+    margin: 0 auto;
     grid-column: 1/13;
     grid-row: 3/9;
     display: flex;
@@ -970,7 +971,7 @@ h2 {
 .form-jobs .nac-jobs,
 .form-jobs .correo-jobs,
 .form-jobs .apellido-jobs {
-    width: 94%;
+    width: 96%;
     margin: 1rem;
     border: 2px solid #a51318;
     border-radius: 1rem;
@@ -1003,7 +1004,7 @@ h2 {
     border-radius: 1rem;
     color: #fdf3c5;
     margin: 1rem;
-    width: 94%;
+    width: 96%;
     padding: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
@@ -1034,7 +1035,7 @@ h2 {
 .form-jobs .inputWrap{
     grid-column: 1/4;
     grid-row: 1/2;
-    width: 94%;
+    width: 96%;
     padding: 1rem;
     align-items: center;
     justify-content: center;
@@ -1058,7 +1059,7 @@ h2 {
 
 }
 .form-jobs .bt {
-    width: 94%;
+    width: 96%;
     background: #a51318;
     padding: 1rem;
     border: 3px solid #a51318;
@@ -1088,7 +1089,7 @@ h2 {
     border-radius: 1rem;
 /*     color: #fdf3c5; */
     margin: 1rem;
-    width: 94%;
+    width: 96%;
     padding: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
@@ -1096,7 +1097,7 @@ h2 {
 }
 .form-jobs .mensaje{
     margin: 1rem;
-    width: 94%;
+    width: 96%;
     padding: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
@@ -1106,7 +1107,7 @@ h2 {
     background-color: white;
     height: 10rem;
     max-width: 48.5rem;
-    min-width: 94%;
+    min-width: 96%;
     min-height: 15rem;
 }
 .form-admin .usuario,
@@ -1174,6 +1175,16 @@ h2 {
     background: #4caf58;
     color: white!important;
     border: 1px solid transparent!important;
+}
+@media (min-width: 600px) {
+    .form-jobs{
+        grid-column: 4/10;
+        grid-row: 3/9;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: top;
+    }
 }
 @media (min-width: 768px) {
     .form-jobs{
