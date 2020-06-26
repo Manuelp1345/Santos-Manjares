@@ -162,6 +162,10 @@ h2 {
         width: 17rem;
         height: 17rem;
     }
+    .sm-log-menu img {
+        width: 15rem;
+        height: 15rem;
+    }
 }
 @media (min-width: 1000px) {
     .sm-log img {
@@ -318,7 +322,7 @@ h2 {
         grid-row: 4 / 10;
     }   
 }
-.addres a img{
+.addres a img {
     height: 80%;
 }
 .title-one {
@@ -399,7 +403,7 @@ h2 {
     width: 25rem;
     background: #a51318;
 }
-.promo .thumb h2{
+.promo .thumb h2 {
     font-size: 4rem;
     font-family: 'heineken';
     position: absolute;
@@ -408,12 +412,12 @@ h2 {
     top :24%;
     left: -20%;
 }
-.promo .thumb img{
+.promo .thumb img {
     width: 100%;
     height: 20rem;
     vertical-align: top;
 }
-.texto-promo{
+.texto-promo {
     text-align: center;
     color: #fdf3c5;
     font-family: 'gothambold';
@@ -427,13 +431,13 @@ h2 {
     right: 0;
     opacity: 0;
 }
-.texto-promo p{
+.texto-promo p {
     font-size: 2.5rem;
     font-weight: 400;
     margin-top: .5rem;
     line-height: 2.5rem;
 }
-.texto-promo p span{
+.texto-promo p span {
     font-family: "gothambook", Helvetica, sans-serif;
     font-weight: 400;
 }
@@ -446,7 +450,7 @@ h2 {
 .line-footer img {
     width: 23rem;
 }
-.underline-footer{
+.underline-footer {
     background-color: #a51318;
     border-top: 2px solid #fde37e;
     width: 100%;
@@ -499,8 +503,25 @@ h2 {
 .banner-menu h2 {
     font-family: 'heineken';
     color: #a51318;
-    font-size: 6rem;
-    letter-spacing: 0.4rem;
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
+}
+@media (min-width: 300px) {
+    .banner-menu h2 {
+        font-size: 4rem;
+    }
+}
+@media (min-width: 360px) {
+    .banner-menu h2 {
+        font-size: 5rem;
+        letter-spacing: 0.2rem;
+    }
+}
+@media (min-width: 450px) {
+    .banner-menu h2 {
+        font-size: 6rem;
+        letter-spacing: 0.4rem;
+    }
 }
 .menu {
     width: 100%;
@@ -513,17 +534,29 @@ h2 {
 .img2 {
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
-.img2 a {
-    display: inline-block;
+@media (min-width: 768px) {
+    .img2 {
+        flex-direction: row;
+    }
 }
 .img2 img {
     vertical-align: top;
-    width: 50%;
+    width: 100%;
     height: 22rem;
-
+}
+.img2 img:last-of-type {
+    margin: 0;
+}
+@media (min-width: 900px) {
+    .img2 img {
+        width: 50%;
+    }
+    .img2 img:last-of-type {
+        margin-top: 3rem;
+    }
 }
 .SM-lg {
     text-align: center;
@@ -673,7 +706,7 @@ h2 {
     border: 2px solid transparent;
     padding: 1rem;
 }
-.our-history-images .adorno{
+.our-history-images .adorno {
     position: absolute;
     width: 30rem;
     height: 19rem;
@@ -686,7 +719,7 @@ h2 {
         width: 25rem;
         height: 25rem;
     }
-    .our-history-images .adorno{
+    .our-history-images .adorno {
         width: 43rem;
         height: 27rem;
         left: 4rem;
@@ -785,7 +818,7 @@ h2 {
     font-size: 7rem;
     margin: 7rem 0;
 }
-.experience-talk .icono-xp img{
+.experience-talk .icono-xp img {
     width: 8rem;
     padding: 5rem 0;
 }
@@ -826,7 +859,7 @@ h2 {
     margin: 0 auto;
     margin-bottom: 3.5rem;
 }
-.certificate-year .adorno-cert{
+.certificate-year .adorno-cert {
     position: absolute;
     width: 25rem;
     height: 16rem;
@@ -863,7 +896,7 @@ h2 {
     font-family: 'gothambold', sans-serif;
     text-align: center;
 }
-.share-experience h3{
+.share-experience h3 {
     font-size: 4rem;
     margin-bottom: 0;
     text-align: center;
@@ -948,27 +981,27 @@ h2 {
     top: 0rem;
     left: 12.3rem;
 }
-.blanco{
+.blanco {
     color: white;
 }
 
 /** Trabaja con Nosotros **/
-.main-jobs{
+.main-jobs {
     font-family: 'gothambook', sans-serif;
 }
-.contenedor-jobs{
+.contenedor-jobs {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(6, 1fr);
 }
-.titulo-jobs{
+.titulo-jobs {
     grid-column: 2/12;
     grid-row: 1/3;
     text-align: center;
     font-size: 2.7rem;
     font-family: "gothambold";
 }
-.titulo-admin{
+.titulo-admin {
     margin-top: 9.3rem;
     grid-column: 2/12;
     grid-row: 1/3;
@@ -976,7 +1009,7 @@ h2 {
     font-size: 2.7rem;
     font-family: "gothambold";
 }
-.form-jobs{
+.form-jobs {
     margin: 0 auto;
     grid-column: 1/13;
     grid-row: 3/9;
@@ -1015,7 +1048,7 @@ h2 {
         font-family: "gothambold";
     }
 }
-.form-jobs .btn-jobs{
+.form-jobs .btn-jobs {
     border: 3px solid #fde37e;
     background: #a51318;
     border-radius: 1rem;
@@ -1027,29 +1060,29 @@ h2 {
     font-weight: bold;
     font-family: "gothambold";
 }
-.form-jobs .text{
+.form-jobs .text {
     display: none;
 }
-.customFileInput{
+.customFileInput {
     margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
 @media (min-width: 768px) {
-    .customFileInput{
+    .customFileInput {
         margin-top: 1rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(1, 1fr);
     }
 }
-.filenme{
+.filenme {
     font-size: 1.5rem;
     font-weight: bold;
     font-family: "gothambold";
 }
-.form-jobs .inputWrap{
+.form-jobs .inputWrap {
     grid-column: 1/4;
     grid-row: 1/2;
     width: 96%;
@@ -1061,7 +1094,7 @@ h2 {
     border-radius: 1rem 1rem 0 0;
     margin-left: 1rem;
 }
-.form-jobs .btWrap{
+.form-jobs .btWrap {
     grid-column: 1/4;
     grid-row: 2/3;
     margin: 1rem;
@@ -1070,7 +1103,7 @@ h2 {
     color: #fdf3c5;
     text-decoration: none;
 }
-.form-jobs .bt a{
+.form-jobs .bt a {
     color: #fdf3c5;
     text-decoration: none;
 
@@ -1084,7 +1117,7 @@ h2 {
     border-radius: 0 0 1rem 1rem;
     margin-top: -2%;
 }
-.form-jobs .bts{
+.form-jobs .bts {
     text-decoration: none;
     background: #a51318;
     padding: 1rem;
@@ -1095,12 +1128,12 @@ h2 {
     border-radius: 0 1rem 1rem 0;
     color: #fdf3c5;
 }
-.form-jobs .ins{
+.form-jobs .ins {
     font-size: 2rem;
     font-weight: 900;
     color: black;
 }
-.form-jobs .asuntos{
+.form-jobs .asuntos {
     border: 3px solid #a51318;
 /*     background: #a51318; */
     border-radius: 1rem;
@@ -1112,7 +1145,7 @@ h2 {
     font-weight: bold;
     font-family: "gothambold";
 }
-.form-jobs .mensaje{
+.form-jobs .mensaje {
     margin: 1rem;
     width: 96%;
     padding: 1rem; 
@@ -1128,7 +1161,7 @@ h2 {
     min-height: 15rem;
 }
 .form-admin .usuario,
-.form-admin .clave{
+.form-admin .clave {
     width: 94%;
     margin: 1rem;
     border: 2px solid #a51318;
@@ -1140,10 +1173,10 @@ h2 {
     font-family: "gothambold";
 
 }
-.form-admin{
+.form-admin {
     margin-top: 4rem;
 }
-.alert{
+.alert {
     width: 94%;
     padding: 1em;
     color: white;
@@ -1154,7 +1187,7 @@ h2 {
     font-family: 'gothambook', sans-serif;
     margin-left: 1rem;
 }
-.barra{
+.barra {
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 1rem;
@@ -1164,7 +1197,7 @@ h2 {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
     height: 25px;
 }
-.barra_azul{
+.barra_azul {
     background-color: #247cc0;
     border-radius: 10px;
     display: block;
@@ -1173,28 +1206,28 @@ h2 {
     text-align: center;
     width: 0%;
 }
-.barra_verde{
+.barra_verde {
     background: #2ea265!important;
 }
-#barra_estado span{
+#barra_estado span {
     margin-top: 2rem;
     color: #fff;
     font-weight: bold;
     line-height: 2px;
 }
-.alert.error{
+.alert.error {
     background: #f2dede;
     border: 1px solid #a94442;
     color: #a94442;
     font-size: 2rem;
 }
-.alert.success{
+.alert.success {
     background: #4caf58;
     color: white!important;
     border: 1px solid transparent!important;
 }
 @media (min-width: 600px) {
-    .form-jobs{
+    .form-jobs {
         grid-column: 4/10;
         grid-row: 3/9;
         display: flex;
@@ -1204,7 +1237,7 @@ h2 {
     }
 }
 @media (min-width: 768px) {
-    .form-jobs{
+    .form-jobs {
         grid-column: 4/10;
         grid-row: 3/9;
         display: flex;
@@ -1212,7 +1245,7 @@ h2 {
         justify-content: center;
         align-items: top;
     }
-    .form-jobs .inputWrap{
+    .form-jobs .inputWrap {
         grid-column: 1/4;
         grid-row: 2/2;
         width: 96%;
@@ -1225,7 +1258,7 @@ h2 {
         border-radius: 1rem;
         margin-left: 1rem;
     }
-    .form-jobs .btWrap{
+    .form-jobs .btWrap {
         grid-column: 3/6;
         grid-row: 2/2;
         padding: 0;
@@ -1233,7 +1266,7 @@ h2 {
         width: 93%;
         font-size: 1.2rem;
     }
-    .form-jobs .bt{
+    .form-jobs .bt {
         margin-left: -10%;
         margin-top: 0;
         background: #a51318;
