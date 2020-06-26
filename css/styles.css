@@ -393,7 +393,7 @@ h2 {
     z-index: 3;
     position: fixed;
     flex-basis: 25%;
-    top: 38%;
+    top: 40%;
     right: -25rem;
     background: #a51318;
     padding-left: 4.5rem;
@@ -404,7 +404,7 @@ h2 {
     background: #a51318;
 }
 .promo .thumb h2 {
-    font-size: 4rem;
+    font-size: 3.8rem;
     font-family: 'heineken';
     position: absolute;
     color: #fdf3c5;
@@ -432,7 +432,7 @@ h2 {
     opacity: 0;
 }
 .texto-promo p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 400;
     margin-top: .5rem;
     line-height: 2.5rem;
@@ -441,7 +441,17 @@ h2 {
     font-family: "gothambook", Helvetica, sans-serif;
     font-weight: 400;
 }
-
+@media (min-width: 768px) {
+    .promo{
+        top: 38%;
+    }
+    .promo .thumb h2 {
+        font-size: 4rem;
+    }
+    .texto-promo p {
+        font-size: 2.5rem;
+    }
+}
 /** Footer **/
 .line-footer {
     margin: 10rem 0 .88rem 0;
@@ -1115,6 +1125,7 @@ h2 {
     border: 3px solid #a51318;
     background: #a51318 ;
     border-radius: 0 0 1rem 1rem;
+    padding-bottom: 0.5rem;
     margin-top: -2%;
 }
 .form-jobs .bts {
