@@ -262,10 +262,11 @@ h2 {
 .video {
     z-index: 1;
     width: 400%;
+    top:5rem;
     height: auto;
     position: fixed;
     transform: scale(.5,1);
-    right: -150%;
+    right: -155%;
 }
 @media (min-width: 450px) {
     .video {
@@ -277,17 +278,17 @@ h2 {
 @media (min-width: 768px) {
     .video {
         z-index: 1;
-        width: 200%;
+        width: 180%;
         transform: scale(.8,1);
-        right: -55%;
+        right: -48%;
     }
 }
 @media (min-width: 1100px) {
     .video {
         z-index: 1;
-        width: 120%;
+        width: 125%;
         transform: none;
-        right: -17%;
+        right: -20%;
     }
 }
 .main-content {
@@ -988,7 +989,7 @@ h2 {
 .form-jobs .nac-jobs,
 .form-jobs .correo-jobs,
 .form-jobs .apellido-jobs {
-    width: 96%;
+    width: 95%;
     margin: 1rem;
     border: 2px solid #a51318;
     border-radius: 1rem;
@@ -998,12 +999,12 @@ h2 {
     font-weight: bold;
     font-family: "gothambold";
 }
-@media (min-width: 900px) {
+@media (min-width: 1080px) {
     .form-jobs .nombre-jobs,
     .form-jobs .nac-jobs,
     .form-jobs .correo-jobs,
     .form-jobs .apellido-jobs {
-        width: 45%;
+        width: 46%;
         margin: 1rem;
         border: 2px solid #a51318;
         border-radius: 1rem;
@@ -1014,7 +1015,6 @@ h2 {
         font-family: "gothambold";
     }
 }
-
 .form-jobs .btn-jobs{
     border: 3px solid #fde37e;
     background: #a51318;
@@ -1215,7 +1215,7 @@ h2 {
     .form-jobs .inputWrap{
         grid-column: 1/4;
         grid-row: 2/2;
-        width: 94%;
+        width: 96%;
         height: 3.5rem;
         align-items: center;
         justify-content: center;
@@ -1230,7 +1230,7 @@ h2 {
         grid-row: 2/2;
         padding: 0;
         text-align: right;
-        width: 82%;
+        width: 93%;
         font-size: 1.2rem;
     }
     .form-jobs .bt{

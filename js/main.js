@@ -106,7 +106,7 @@ $(function(){
                     display:"flex"
                 });
                 $(".video").css({
-                    top:"8.5rem"
+                    top:"6rem"
                 });
                 ocultar2++;
             }else{
@@ -124,7 +124,7 @@ $(function(){
                     display:"none"
                 });
                 $(".video").css({
-                    top:"none"
+                    top:"5rem"
                 });
                 ocultar2--;
             }
