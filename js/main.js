@@ -8,40 +8,22 @@ $(function(){
 
         $('.promo a').on('click',function(e){
             e.preventDefault();
-            if(ocultar==0)
-            {
-            $(".thumb h2").html('<i class="fas fa-angle-double-down">');
-            $(".thumb h2").css({
-                transition: "all .3s linear",
-                left: "1.5rem",
-            })
+            if(ocultar==0){
+                $(".thumb h2").html('<i class="fas fa-angle-double-down">');
+                $(".thumb h2").css({transition: "all .3s linear", left: "1.5rem"})
 
-            $(".promo").animate({
-            right: "0rem"
-            },500);
-            $(".texto-promo").css({
-                right: "-25rem"
-                },1);
-            $(".texto-promo").animate({
-                opacity: 1,
-                right: "0rem"
-                },600);
-            ocultar++;
-        }else{
-            $(".thumb h2").html('<i class="fas fa-angle-double-up"> Promos');
-            $(".thumb h2").css({
-                transition: "all .3s linear",
-                left: "-20%",
-            })
-            $(".promo").animate({
-                right: "-25rem"
-                },500);
-                $(".texto-promo").animate({
-                    opacity: 0,
-                    right: "-25rem"
-                    },1000);
+                $(".promo").animate({right: "0rem"},500);
+                $(".texto-promo").css({right: "-25rem"},1);
+                $(".texto-promo").animate({opacity: 1,right: "0rem"},600);
+                ocultar++;
+            }
+            else {
+                $(".thumb h2").html('<i class="fas fa-angle-double-up"> Promos');
+                $(".thumb h2").css({transition: "all .3s linear", left: "-20%"})
+                $(".promo").animate({right: "-25rem"},500);
+                $(".texto-promo").animate({opacity: 0,right: "-25rem"},1000);
                 ocultar--;
-        }
+            }
         })
         //Fin Efecto
 
